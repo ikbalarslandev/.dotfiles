@@ -10,6 +10,6 @@ return {
 			},
 		})
 
-		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
+		vim.keymap.set("n", "<leader>fd", vim.lsp.buf.format, {})
 	end,
 }
